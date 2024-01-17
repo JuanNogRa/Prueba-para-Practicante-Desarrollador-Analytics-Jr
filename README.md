@@ -9,5 +9,5 @@ El archivo **InferenceVideo.ipynb** por medio de un video de entrada en este cas
 
 </p>
 
-![alt text](https://divamgupta.com/assets/images/posts/imgseg/image6.png?style=centerme)
-*Encoder-Decoder arquictura de un modelo de segmentación somática.*
+![alt text](página01.jpg)
+*Modelo VGG-Unet.*
