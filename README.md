@@ -6,6 +6,5 @@ El archivo **Dataset.ipynb** permite extraer imágenes y etiquetas para entrenar
 El archivo **Entrenamiento.ipynb** permite realizar el entrenamiento del modelo de segmentación. Descarga el dataset filtrado con **Dataset.ipynb** por medio de la plataforma Roboflow y lo usa para realizar la construcción del modelo VGG 16 como encoder o backbone y Unet como decoder. Ambos modelos constituyen la arquitectura de red neuronal que permite entrenar el modelo de segmentación somática. 
 
 El archivo **InferenceVideo.ipynb** por medio de un video de entrada en este caso se utilizó el almacenado en el enlace anteriormente mencionado el nombre es **"_import_61ea45b28b2592.20292381.mov"** se predice la segmentación por medio del modelo también almacenado en el mismo enlace que tiene el nombre de **"semasegUltimate.keras"**. El script genera un archivo de video de extensión .mp4 listo para ser descargado y visto de forma local con las etiquetas y sus colores asociados. En el link esta el archivo generado.
+![alt text](https://divamgupta.com/assets/images/posts/imgseg/image6.png?style=centerme)*Encoder-Decoder arquictura de un modelo de segmentación somática.*
 </p>
-
-![alt text](https://divamgupta.com/assets/images/posts/imgseg/image6.png?style=centerme)*Encoder-Decoder with skip connections.*
